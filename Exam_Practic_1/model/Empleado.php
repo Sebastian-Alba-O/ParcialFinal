@@ -1,5 +1,4 @@
 <?php
-// model/Empleado.php
 require_once 'Conexion.php';
 
 class Empleado {

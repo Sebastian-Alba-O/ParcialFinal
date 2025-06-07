@@ -1,5 +1,4 @@
 <?php
-// controller/EmpleadoController.php
 require_once __DIR__ . '/../model/Empleado.php';
 
 class EmpleadoController {

@@ -1,5 +1,4 @@
 <?php
-// model/Conexion.php
 class Conexion {
     private $host = 'localhost';
     private $db = 'nomina_db';

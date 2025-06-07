@@ -1,25 +1,22 @@
-/*
-Estilos básicos para la presentación
-*/
+
 body {
-    font-family: Arial, sans-serif;
     margin: 30px;
-    background: #f9f9f9;
+    background: #535353;
 }
 .container {
     max-width: 700px;
     margin: 40px auto;
-    background: #fff;
+    background: #8d8d8d;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     padding: 32px 24px;
+    text-align: center;
 }
 h2 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
 }
 form {
-    background: #fff;
+    background:#8d8d8d;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
@@ -40,7 +37,7 @@ form input[type="number"] {
 }
 form input[type="submit"], button {
     padding: 8px 16px;
-    background: #007bff;
+    background: #535353;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -48,11 +45,12 @@ form input[type="submit"], button {
     font-size: 16px;
 }
 form input[type="submit"]:hover, button:hover {
-    background: #0056b3;
+    background: #b30000;
+    color: #000000;
 }
 table {
-    background: #fff;
-    border-collapse: collapse;
+    color: #fff;
+    background: #8d8d8d;
     width: 80%;
     margin-bottom: 20px;
 }
@@ -65,7 +63,7 @@ tr:nth-child(even) {
     background: #f2f2f2;
 }
 a {
-    color: #007bff;
+    color: #197ae2;
     text-decoration: none;
 }
 a:hover {
