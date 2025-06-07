@@ -1,12 +1,7 @@
 <?php
-require_once 'Conexion.php';
+require_once 'conexion.php';
 
 class Empleado {
-    public $id;
-    public $nombre;
-    public $salario_base;
-    public $comision;
-
     public static function listar() {
         $conexion = new Conexion();
         $sql = "SELECT * FROM empleados";
@@ -20,7 +15,7 @@ class Empleado {
 
     public static function guardar($nombre, $salario_base, $comision) {
         $conexion = new Conexion();
-        $stmt = $conexion->conn->prepare("INSERT INTO empleados (nombre, salario_base, comision) VALUES (?, ?, ?)");
+        $stmt = $conexion->conn->prepare("INSERT INTO empleados (nombre, salario_base, comision_pct) VALUES (?, ?, ?)");
         $stmt->bind_param("sdd", $nombre, $salario_base, $comision);
         return $stmt->execute();
     }
